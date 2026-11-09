@@ -54,9 +54,10 @@ int main() {
         name = "Выходной тариф";
     }
 
+
     double s_base = t * price;
-    double sk1 = 0.0; 
-    double sk2 = 0.0; 
+    double sk1 = 0.0;
+    double sk2 = 0.0;
 
     if (t > 60) {
         sk1 = s_base * 0.10;
